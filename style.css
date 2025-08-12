@@ -1,0 +1,48 @@
+html {
+    background-color: rgb(213, 199, 174);
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+img {
+    width: 50rem;
+    height: auto;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#button {
+    width: auto;
+    height: auto;
+    background-color: violet;
+    color: white;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+video {
+    width: 100vw;
+    height: auto;
+}
